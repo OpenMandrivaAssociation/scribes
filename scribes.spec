@@ -1,5 +1,5 @@
 %define name	scribes
-%define version 0.3.2.2
+%define version 0.3.2.5
 %define release %mkrel 1
 
 Summary:	Simple yet powerful GNOME text editor
@@ -64,7 +64,7 @@ rm -rf %buildroot
 %py_puresitedir/SCRIBES
 %_bindir/%name
 %_datadir/%name/
-%_datadir/pixmaps/%name.svg
+%_datadir/pixmaps/%name.png
 %_datadir/gnome/help/%name/
 %_iconsdir/hicolor/*/apps/%name.*
 %_datadir/omf/%name/
