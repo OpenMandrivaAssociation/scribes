@@ -33,9 +33,10 @@ factors that prevent you from focusing on your tasks.
 %install
 %makeinstall_std
 desktop-file-install --vendor="" \
-  --add-category="Editors" \
+  --remove-category="Application" \
+  --add-category="Utility" \
+  --add-category="TextEditor" \
   --add-category="X-MandrivaLinux-MoreApplications-Editors" \
-  --add-category="X-MandrivaLinux-MoreApplications-Development" \
   --dir $RPM_BUILD_ROOT%{_datadir}/applications $RPM_BUILD_ROOT%{_datadir}/applications/*
 
 %find_lang %name 
