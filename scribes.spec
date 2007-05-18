@@ -11,7 +11,7 @@ Group:		Editors
 URL:		http://scribes.sourceforge.net
 Source0:	http://internap.dl.sourceforge.net/sourceforge/scribes/%name-%version.tar.bz2
 BuildRoot:	%_tmppath/%name-%version-%release-buildroot
-Buildrequires:	pygtk2.0-devel yelp dbus-python gnome-python gnome-python-extras gnome-python-gtkspell gnome-python-gtksourceview desktop-file-utils
+Buildrequires:	libxslt-proc pygtk2.0-devel yelp dbus-python gnome-python gnome-python-extras gnome-python-gtkspell gnome-python-gtksourceview desktop-file-utils
 Requires:	yelp dbus-python pygtk2.0 gnome-python gnome-python-extras gnome-python-gtkspell
 
 %description
