@@ -1,12 +1,12 @@
 %define name	scribes
-%define version 0.3.2.8
+%define version 0.3.3.1
 %define release %mkrel 1
 
 Summary:	Simple yet powerful GNOME text editor
 Name:		%name
 Version:	%version
 Release:	%release
-License:	GPL 
+License:	GPLv2+
 Group:		Editors
 URL:		http://scribes.sourceforge.net
 Source0:	http://internap.dl.sourceforge.net/sourceforge/scribes/%name-%version.tar.bz2
@@ -35,7 +35,6 @@ desktop-file-install --vendor="" \
   --remove-category="Application" \
   --add-category="Utility" \
   --add-category="TextEditor" \
-  --add-category="X-MandrivaLinux-MoreApplications-Editors" \
   --dir $RPM_BUILD_ROOT%{_datadir}/applications $RPM_BUILD_ROOT%{_datadir}/applications/*
 
 %find_lang %name 
