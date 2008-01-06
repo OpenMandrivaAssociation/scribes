@@ -1,5 +1,5 @@
 %define name	scribes
-%define version 0.3.3.1
+%define version 0.3.3.3
 %define release %mkrel 1
 
 Summary:	Simple yet powerful GNOME text editor
