@@ -16,13 +16,12 @@ Requires:	yelp dbus-python pygtk2.0 gnome-python gnome-python-extras gnome-pytho
 Requires:	pygtk2.0-libglade gnome-python-gtksourceview gnome-python-gconf
 
 %description
-Scribes is a text editor for GNOME that is simple,
-slim and sleek, yet powerful.
+Scribes is a text editor for GNOME that is simple, slim, and sleek, yet
+powerful.
 
-Scribes focuses on streamlining your workflow. 
-It does so by ensuring common and repetitive operations 
-are intelligently automated. And also by eliminating 
-factors that prevent you from focusing on your tasks.
+Scribes focuses on streamlining your workflow.  It does so by ensuring common
+and repetitive operations are intelligently automated, and also by eliminating
+factors that prevent you from focusing on your task.
 
 %prep
 %setup -q
