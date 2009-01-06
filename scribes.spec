@@ -1,6 +1,6 @@
 %define name	scribes
 %define version 0.3.3.3
-%define release %mkrel 3
+%define release %mkrel 4
 
 Summary:	Simple yet powerful GNOME text editor
 Name:		%name
