@@ -27,10 +27,11 @@ factors that prevent you from focusing on your task.
 %setup -q
 
 %build
-%configure --disable-scrollkeeper --disable-schemas-install
+%configure2_5x --disable-scrollkeeper --disable-schemas-install
 %make
 
 %install
+rm -f %buildroot
 %makeinstall_std
 desktop-file-install --vendor="" \
   --remove-category="Application" \
@@ -59,8 +60,8 @@ desktop-file-install --vendor="" \
 rm -rf %buildroot
 
 %files -f %name.lang 
-%defattr(0755,root,root,0755)
-
+%defattr(-,root,root)
+%doc AUTHORS ChangeLog CONTRIBUTORS COPYING NEWS README TRANSLATORS TODO
 %py_puresitedir/SCRIBES
 %_bindir/%name
 %_datadir/%name/
@@ -70,6 +71,3 @@ rm -rf %buildroot
 %_datadir/omf/%name/
 %_sysconfdir/gconf/schemas/%name.schemas
 %_datadir/applications/%name.desktop
-
-%defattr(0644,root,root,0755) 
-%doc AUTHORS ChangeLog CONTRIBUTORS COPYING NEWS README TRANSLATORS TODO 
