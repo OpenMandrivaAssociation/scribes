@@ -32,7 +32,6 @@ factors that prevent you from focusing on your task.
 %make
 
 %install
-rm -f %buildroot
 %makeinstall_std
 desktop-file-install --vendor="" \
   --remove-category="Application" \
