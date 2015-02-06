@@ -1,6 +1,6 @@
 %define name	scribes
 %define version 0.3.3.3
-%define release 7
+%define release 8
 
 %define debug_package %{nil}
 
