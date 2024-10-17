@@ -10,7 +10,7 @@ Version:	%version
 Release:	%release
 License:	GPLv2+
 Group:		Editors
-URL:		http://scribes.sourceforge.net
+URL:		https://scribes.sourceforge.net
 Source0:	http://internap.dl.sourceforge.net/sourceforge/scribes/%name-%version.tar.bz2
 BuildRoot:	%_tmppath/%name-%version-%release-buildroot
 BuildRequires:	libxslt-proc pygtk2.0-devel yelp dbus-python gnome-python gnome-python-extras gnome-python-gtkspell gnome-python-gtksourceview desktop-file-utils
